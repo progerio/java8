@@ -3,16 +3,19 @@ package modelo;
 public class Usuario {
 
 	private String nome;
-	
+
 	private int pontos;
-	
+
 	private boolean moderador;
 
 	public Usuario(String nome, int pontos) {
-		super();
 		this.nome = nome;
 		this.pontos = pontos;
 		this.moderador = false;
+	}
+
+	public Usuario(String nome) {
+		this.nome = nome;
 	}
 
 	public String getNome() {
@@ -38,9 +41,13 @@ public class Usuario {
 	public void setModerador(boolean moderador) {
 		this.moderador = moderador;
 	}
-	
+
 	public boolean tornarModerador() {
 		return this.moderador = true;
 	}
-	
+
+	public String toString() {
+		return "Usuario: " + nome;
+	}
+
 }
