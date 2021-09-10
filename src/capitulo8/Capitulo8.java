@@ -143,7 +143,6 @@ public class Capitulo8 {
 			try {
 				return Files.lines(p);
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 			return null;
@@ -169,7 +168,6 @@ public class Capitulo8 {
 		.forEach(System.out::println);
 		
 		System.out.println("-----------------------------------------");
-		
 		
 	}
 }

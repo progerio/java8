@@ -134,12 +134,5 @@ public class Capitulo7 {
 		System.out.println(pontuacaoMedia2);
 		
 		System.out.println("--------------------------------------");
-		
-		
-		
-		
-		
 	}
-	
-	
 }
