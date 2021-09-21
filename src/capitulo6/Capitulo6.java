@@ -58,6 +58,7 @@ public class Capitulo6 {
 		Usuario rodrigo3 = criadorDeUsuarios.apply("Rodrigo Turini");
 		Usuario paulo = criadorDeUsuarios.apply("Paulo Silveira");
 		System.out.println(paulo);
+		System.out.println(rodrigo3);
 		
 	}
 }
