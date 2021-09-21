@@ -57,6 +57,7 @@ public class Capitulo6 {
 		Function<String, Usuario> criadorDeUsuarios = Usuario::new;
 		Usuario rodrigo3 = criadorDeUsuarios.apply("Rodrigo Turini");
 		Usuario paulo = criadorDeUsuarios.apply("Paulo Silveira");
+		System.out.println(paulo);
 		
 	}
 }
